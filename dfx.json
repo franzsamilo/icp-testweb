@@ -1,6 +1,6 @@
 {
   "canisters": {
-    "icp_simple_site": {
+    "vanilla-icp": {
       "frontend": {
         "entrypoint": "src/index.html"
       },
@@ -8,12 +8,6 @@
       "type": "assets"
     }
   },
-  "dfx": "0.17.0",
-  "version": 1,
-  "networks": {
-    "local": {
-      "bind": "0.0.0.0:8000",
-      "type": "ephemeral"
-    }
-  }
+  "dfx": "0.20.1",
+  "version": 1
 }
